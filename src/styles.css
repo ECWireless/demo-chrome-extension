@@ -1,0 +1,7 @@
+@tailwind base;
+
+@tailwind components;
+
+html{min-height:300px;min-width:500px}
+
+@tailwind utilities;

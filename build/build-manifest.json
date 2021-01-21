@@ -1,0 +1,100 @@
+{
+  "inputs": {
+    "snowpack_meta/pkg/common/index-e66f0a38.js": {
+      "bytes": 8994,
+      "imports": []
+    },
+    "snowpack_meta/pkg/react.js": {
+      "bytes": 116,
+      "imports": [
+        {
+          "path": "snowpack_meta/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack_meta/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "snowpack_meta/pkg/react-dom.js": {
+      "bytes": 127469,
+      "imports": [
+        {
+          "path": "snowpack_meta/pkg/common/index-e66f0a38.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "App.js": {
+      "bytes": 1348,
+      "imports": [
+        {
+          "path": "snowpack_meta/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "styles.css": {
+      "bytes": 3987942,
+      "imports": []
+    },
+    "index.js": {
+      "bytes": 282,
+      "imports": [
+        {
+          "path": "snowpack_meta/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "snowpack_meta/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "styles.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "snowpack_meta/pkg/common/index-e66f0a38.js": {
+          "bytesInOutput": 7147
+        },
+        "snowpack_meta/pkg/react.js": {
+          "bytesInOutput": 0
+        },
+        "snowpack_meta/pkg/react-dom.js": {
+          "bytesInOutput": 123827
+        },
+        "App.js": {
+          "bytesInOutput": 862
+        },
+        "styles.css": {
+          "bytesInOutput": 0
+        },
+        "index.js": {
+          "bytesInOutput": 77
+        }
+      },
+      "bytes": 131965
+    },
+    "../~~bundle~~/index.css": {
+      "imports": [],
+      "inputs": {
+        "styles.css": {
+          "bytesInOutput": 3209293
+        }
+      },
+      "bytes": 3209294
+    }
+  }
+}
