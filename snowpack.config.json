@@ -1,6 +1,5 @@
 {
   "mount": {
-    "build": "/",
     "src": "/"
   },
   "plugins": [
