@@ -44,7 +44,7 @@ class App extends React.Component {
         <div className="container flex flex-col items-center my-10">
           <img src={'./images/chuck-kick.png'} alt="Roundhouse Kick!" className="h-48"></img>
           <div className="border-2 rounded-lg shadow-md p-5 m-5">
-            {!joke ? <img src={'./images/loader.gif'}></img> : joke}
+            {!joke ? <img src={'./images/loader.gif'} className="h-8"></img> : joke}
           </div>
           <button
             className="focus:outline-none bg-green-500 hover:bg-green-300 rounded-lg shadow-lg p-2"
