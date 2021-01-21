@@ -1,14 +1,13 @@
 {
-  "name": "empty-project",
+  "name": "demo-chrome-extension",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo Chrome Extension",
   "main": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ed Zynda",
+  "license": "MIT",
   "scripts": {
     "copy": "copyfiles manifest.json icon.png icon-128px.png ./build",
-    "clean": "rm dist/bundle.js",
     "start": "snowpack dev",
     "build": "snowpack build && npm run copy"
   },
